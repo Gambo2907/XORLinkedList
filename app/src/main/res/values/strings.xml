@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">XORLinkedList</string>
+    <string name="botonsiguiente">Siguiente</string>
+    <string name="tv1">Una lista enlazada XOR tambien conocida como una lista enlazada eficiente en memoria es otra forma de una lista doblemente enlazada, esto depende en gran medida de la puerta logica XOR y sus propiedades.
+        La implementación se basa en la distancia del puntero, cada nodo llevaría solo un campo de puntero para recorrer la lista de un lado a otro, en lugar de almacenar direcciones de memoria reales, cada nodo almacena el XOR de direcciones de nodos anteriores y siguientes.
+    El primer nodo, o la cabeza , almacena la informacion del siguiente ya que no hay ningun nodo o dirección anterior. 
+Luego, el segundo nodo almacena la información del anterior y del siguiente, y así sucesivamente. La cola de la lista, no tiene ningún nodo siguiente, por lo que almacena la información del anterior.
+    </string>
+    <string name="botonanterior">Anterior</string>
+    <string name="tv2">Ventajas:
+        -Utiliza menos memoria que una lista doble enlazada.
+        -Se ahorra mucho espacio de memoria. Para cada nodo se está guardando un puntero, si hay n nodos el consumo de memoria se reduce por O(n).
+    </string>
+    <string name="tv3">Desventajas:
+        -Las herramientas de depuración de uso general no pueden seguir la cadena XOR, lo que dificulta la depuración.
+           -Al haber una disminución en el uso de memoria es un aumento en la complejidad del código, lo que hace que el mantenimiento sea más caro.
+    </string>
+</resources>
